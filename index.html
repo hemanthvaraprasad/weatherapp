@@ -5,13 +5,15 @@
 	<link rel="shortcut icon" type="x-icon" href="images/logo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Weather App</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 	<div class="card">
 		<div class="search">
-			<input type="text" placeholder="Enter City Name">
-			<button><img src="images/search.png"></button>
+			<input type="text" id="search" placeholder="Enter City Name">
+			<button onclick="hemanth()"><img src="images/search.png"></button>
+			<!-- <button type="submit"><i class="fa fa-search"></i></button> -->
 		</div>
 		<div class="error">
 			<p>Invalid city name</p>
